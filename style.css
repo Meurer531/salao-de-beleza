@@ -16,4 +16,6 @@ body
 .ddiv
 {
     background-color: gray;
+    height: 0 auto;
+    width: 600px;
 }
