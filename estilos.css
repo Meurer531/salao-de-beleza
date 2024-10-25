@@ -8,3 +8,10 @@ body
     width: 300px;
     height: 300px;
 }
+
+.americano
+{
+    width: 300px;
+    height: 300px;
+    float: left;
+}
