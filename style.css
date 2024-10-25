@@ -36,16 +36,11 @@ body
     margin-top: -110px;
 }
 
-.estilos
-{
-    margin-left: 80px;
-}
-
 .b {
     background-position: left;
     background-color: midnightblue;
     width: 135px;
     height: 30px;
-    margin-top: 6px;
+    margin-left: 80px;
     color: #fefffe;
 }
