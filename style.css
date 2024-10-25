@@ -1,6 +1,7 @@
 .titulo
 {
     text-align: center;
+    color: white;
 }
 
 .iimg
@@ -37,6 +38,5 @@ body
 
 .estilos
 {
-    background-color: midnightblue;
     margin-left: 80px;
 }
