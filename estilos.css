@@ -1,73 +1,21 @@
-body
-{
+body {
     background-color: #DAA520;
 }
 
-.degrade
-{
+.cortes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.corte {
+    margin: 20px; /* Adicione espaçamento entre os cortes */
+    text-align: center;
+}
+
+.degrade, .americano, .low, .mili, .moi {
     width: 300px;
     height: 300px;
-    border-radius: 250px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.americano
-{
-    width: 300px;
-    height: 300px;
-    float: left;
-    margin-top: -308px;
-    margin-left: 340px;
-    border-radius: 250px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.de_americano
-{
-    margin-left: 430px;
-    margin-top: -30px;
-}
-
-.lowfade
-{
-    margin-left: 800px;
-    margin-top: -30px;
-}
-
-.low
-{
-    width: 300px;
-    height: 300px;
-    float: left;
-    margin-top: -308px;
-    margin-left: 700px;
-    border-radius: 250px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.militar
-{
-    margin-left: 1160px;
-    margin-top: -30px;
-}
-
-.mili
-{
-    width: 300px;
-    height: 300px;
-    float: left;
-    margin-top: -308px;
-    margin-left: 1050px;
-    border-radius: 250px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.moi
-{
-    width: 300px;
-    height: 300px;
-    margin-top: -2200px;
-    margin-left: 80px;
     border-radius: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
