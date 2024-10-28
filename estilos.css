@@ -18,6 +18,8 @@ body
     float: left;
     margin-top: -308px;
     margin-left: 340px;
+    border-radius: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .de_americano
@@ -39,4 +41,6 @@ body
     float: left;
     margin-top: -308px;
     margin-left: 700px;
+    border-radius: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
