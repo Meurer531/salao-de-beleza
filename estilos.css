@@ -44,3 +44,20 @@ body
     border-radius: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.militar
+{
+    margin-left: 1000px;
+    margin-top: -30px;
+}
+
+.mili
+{
+    width: 300px;
+    width: 300px;
+    float: left;
+    margin-top: -308px;
+    margin-left: 900;
+    border-radius: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
