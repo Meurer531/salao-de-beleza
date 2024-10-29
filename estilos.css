@@ -1,48 +1,64 @@
 body {
     background-color: #DAA520;
-    position: relative; /* Para o posicionamento absoluto das imagens */
+    position: relative;
+    /* Para o posicionamento absoluto das imagens */
 }
 
 h1 {
     text-align: center;
-    margin-top: 50px; /* Ajuste conforme necessário para o espaço */
+    margin-top: 50px;
+    /* Ajuste conforme necessário para o espaço */
 }
 
-.degrade, .americano, .low, .mili, .moi {
+.degrade,
+.americano,
+.low,
+.mili,
+.moi {
     width: 300px;
     height: 300px;
+    float: left;
+    margin-top: -308px;
+    margin-left: 700px;
     border-radius: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    position: absolute; /* Torna a posição das imagens independente */
 }
 
 .degrade {
-    top: 100px; /* Ajuste a posição vertical */
-    left: 50px; /* Ajuste a posição horizontal */
+    top: 100px;
+    /* Ajuste a posição vertical */
+    left: 50px;
+    /* Ajuste a posição horizontal */
 }
 
 .americano {
-    top: 100px; /* Mesma altura, posição diferente */
-    left: 400px; /* Ajuste a posição horizontal */
+    top: 100px;
+    /* Mesma altura, posição diferente */
+    left: 400px;
+    /* Ajuste a posição horizontal */
 }
 
 .low {
-    top: 100px; 
-    left: 750px; 
+    top: 100px;
+    left: 750px;
 }
 
 .mili {
-    top: 100px; 
-    left: 1100px; 
+    top: 100px;
+    left: 1100px;
 }
 
 .moi {
-    margin-top: 30px; /* Esta margem não será necessária, pois você já está usando position absolute */
-    top: 400px; /* Ajuste a posição para baixo */
-    left: 50px; /* Ajuste a posição horizontal */
+    margin-top: 30px;
+    /* Esta margem não será necessária, pois você já está usando position absolute */
+    top: 400px;
+    /* Ajuste a posição para baixo */
+    left: 50px;
+    /* Ajuste a posição horizontal */
 }
 
 .momo {
     margin-left: 90px;
-    margin-top: 300px; /* Isso não afetará as imagens se você usar position absolute */
+    margin-top: 300px;
+    /* Isso não afetará as imagens se você usar position absolute */
 }
