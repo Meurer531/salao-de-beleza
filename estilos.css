@@ -1,75 +1,80 @@
-body {
+body
+{
     background-color: #DAA520;
 }
 
-.degrade {
+.degrade
+{
     width: 300px;
     height: 300px;
     border-radius: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.americano {
+.americano
+{
     width: 300px;
     height: 300px;
+    float: left;
+    margin-top: -308px;
+    margin-left: 340px;
+    border-radius: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: absolute;
-    /* Altera para absolute */
-    top: 50px;
-    /* Ajuste a posição vertical */
-    left: 340px;
-    /* Ajuste a posição horizontal */
-    border-radius: 250px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.de_americano {
+.de_americano
+{
     margin-left: 430px;
     margin-top: -30px;
 }
 
-.lowfade {
+.lowfade
+{
     margin-left: 800px;
     margin-top: -30px;
 }
 
-.low {
+.low
+{
     width: 300px;
     height: 300px;
-    position: absolute;
-    top: 50px;
-    left: 700px;
+    float: left;
+    margin-top: -308px;
+    margin-left: 700px;
     border-radius: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-.militar {
+.militar
+{
     margin-left: 1160px;
     margin-top: -30px;
 }
 
-.mili {
+.mili
+{
     width: 300px;
     height: 300px;
-    position: absolute; /* Altera para absolute */
-    top: 50px; /* Mesma altura das outras */
-    left: 1050px; /* Ajuste a posição horizontal */
+    float: left;
+    margin-top: -308px;
+    margin-left: 1050px;
     border-radius: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.moi {
+.moi 
+{
     width: 300px;
     height: 300px;
-    position: absolute; /* Altera para absolute */
-    top: 400px; /* Ajuste a posição para baixo */
-    left: 80px; /* Ajuste a posição horizontal */
+    margin-top: 30px; 
     border-radius: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
-.momo {
+.momo
+{
     margin-left: 90px;
     margin-top: 300px;
 }
