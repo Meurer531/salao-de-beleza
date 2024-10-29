@@ -1,64 +1,75 @@
 body {
     background-color: #DAA520;
-    position: relative;
-    /* Para o posicionamento absoluto das imagens */
 }
 
-h1 {
-    text-align: center;
-    margin-top: 50px;
-    /* Ajuste conforme necessário para o espaço */
-}
-
-.degrade,
-.americano,
-.low,
-.mili,
-.moi {
+.degrade {
     width: 300px;
     height: 300px;
-    float: left;
-    margin-top: -308px;
-    margin-left: 700px;
     border-radius: 250px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.degrade {
-    top: 100px;
+.americano {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    /* Altera para absolute */
+    top: 50px;
     /* Ajuste a posição vertical */
-    left: 50px;
+    left: 340px;
     /* Ajuste a posição horizontal */
+    border-radius: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.americano {
-    top: 100px;
-    /* Mesma altura, posição diferente */
-    left: 400px;
-    /* Ajuste a posição horizontal */
+.de_americano {
+    margin-left: 430px;
+    margin-top: -30px;
+}
+
+.lowfade {
+    margin-left: 800px;
+    margin-top: -30px;
 }
 
 .low {
-    top: 100px;
-    left: 750px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+    left: 700px;
+    border-radius: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.militar {
+    margin-left: 1160px;
+    margin-top: -30px;
 }
 
 .mili {
-    top: 100px;
-    left: 1100px;
+    width: 300px;
+    height: 300px;
+    position: absolute; /* Altera para absolute */
+    top: 50px; /* Mesma altura das outras */
+    left: 1050px; /* Ajuste a posição horizontal */
+    border-radius: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .moi {
-    margin-top: 30px;
-    /* Esta margem não será necessária, pois você já está usando position absolute */
-    top: 400px;
-    /* Ajuste a posição para baixo */
-    left: 50px;
-    /* Ajuste a posição horizontal */
+    width: 300px;
+    height: 300px;
+    position: absolute; /* Altera para absolute */
+    top: 400px; /* Ajuste a posição para baixo */
+    left: 80px; /* Ajuste a posição horizontal */
+    border-radius: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 
 .momo {
     margin-left: 90px;
     margin-top: 300px;
-    /* Isso não afetará as imagens se você usar position absolute */
 }
