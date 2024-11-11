@@ -25,3 +25,12 @@ img {
     margin-left: 160px;
     margin-top: 75px;
 }
+
+.b {
+    background-position: left;
+    background-color: midnightblue;
+    width: 135px;
+    height: 30px;
+    margin-left: 40px;
+    color: #fefffe;
+}
