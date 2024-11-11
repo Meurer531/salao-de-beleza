@@ -17,7 +17,8 @@ body {
 img {
     width: 300px;
     height: 300px;
-    border-radius: 150px; /* Ajuste do border-radius */
+    border-radius: 150px;
+    /* Ajuste do border-radius */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 0, 0, 0.19);
 }
 
@@ -33,4 +34,9 @@ img {
     height: 30px;
     margin-left: 40px;
     color: #fefffe;
+}
+
+.sair {
+    width: 40px;
+    height: 40px;
 }
