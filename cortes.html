@@ -9,6 +9,12 @@
     <link rel="icon" type="image" href="icone.png">
 </head>
 
+<script>
+    function reservarCorte() {
+        alert("Seu corte já foi mandado e reservado com sucesso!");
+    }
+</script>
+
 <body>
 
     <h1 style="text-align: center;">Cortes que Oferecemos:</h1>
@@ -28,7 +34,9 @@
             <tr>
                 <td>
                     <h3 class="degrade">Americano</h3>
-                    <h4 class="degrade">R$ 34,00</h4>
+                    <h4 class="degrade">R$ 34,00
+                        <button onclick="reservarCorte()">Reserve já</button>
+                    </h4>
                 </td>
                 <td><img src="americano.jpg" alt=""></td>
 
